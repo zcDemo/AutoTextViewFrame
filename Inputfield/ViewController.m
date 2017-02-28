@@ -32,6 +32,8 @@
     _with = [UIScreen mainScreen].bounds.size.width;
     _rows = 1;
     
+    
+    
     self.textLable = [[UILabel alloc] initWithFrame:CGRectMake(10, 64, _with, _heigth)];
     self.textLable.numberOfLines = 0;
     [self.view addSubview:self.textLable];
